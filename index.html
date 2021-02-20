@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <title>The Online Oracle</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+
+  
+</head>
+
+
+<body class="main">
+<div><a href='https://www.hit-counts.com/'><img src='http://www.hit-counts.com/counter.php?t=MTQ0MTU0Mw==' border='0' alt='logo design'></a><BR><a href='https://www.glowgraphics.co.uk/'></a></div>
+
+    
+    <table class="main">
+       
+        <th><td class="head">Welcome To My Page!!!!!!</td></th>
+           
+        <tr>
+            <td><img src="moon1.gif" alt="moon"></td>
+            <td id="deck">You can use my page like a deck of tarot cards! Click shuffle to get a random card from the deck...</td>
+            <td><img src="moon1.gif" alt="moon"></td>
+        </tr>
+        <tr>
+            <td><!--gif--></td>
+            <td id="shuffle">
+                <!--takes user to random page-->
+                <script type="text/javascript">
+                    var sites = [
+                        'thefool.html',
+                        'themagician.html',
+                        'highpriestess.html',
+                        'empress.html',
+                        'emperor.html',
+                        'hierophant.html',
+                        'lovers.html',
+                        'chariot.html',
+                        'strength.html',
+                        'hermit.html',
+                        'wheeloffortune.html',
+                        'justice.html',
+                        'hangedman.html',
+                        'death.html',
+                        'temperance.html',
+                        'devil.html',
+                        'tower.html',
+                        'star.html',
+                        'moon.html',
+                        'sun.html',
+                        'judgement.html',
+                        'world.html'
+                    ];
+                    console.log(sites.length);
+                    
+                    function randomSite() {
+                        var i = parseInt(Math.random() * sites.length);
+                        location.href = sites[i];
+                        console.log(sites.length);
+                        console.log(sites[i]);
+                    }
+                </script>
+                <!--shuffle button-->
+                <a href="#" onclick="randomSite();">
+                    <div>shuffle</div>
+                </a>
+            </td>
+            <td><!--gif--></td>
+        </tr>
+        <tr>
+            <td><img src="lilies.gif" alt="lilies"></td>
+            <td><!--blank--></td>
+            <td><img src="lilies.gif" alt="lilies"></td>
+    
+        </tr>
+        <tr>
+            <td class="read"><a href="aboutme.html">Read more about author of the webpage</a></td>
+            <td class="read"><a href="abouttarot.html">Read about tarot cards</a></td>
+            <td class="read"><a href="aboutsite.html">Read more about this webpage</a></td>
+        </tr>
+   </table>
+
+<script src="script.js"></script>
+
+</body>

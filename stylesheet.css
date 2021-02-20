@@ -1,0 +1,98 @@
+body {
+    background-image: url("tarotbg.png")
+}
+#container {
+    cursor   : none;
+ }
+ 
+ #cursor {
+   position  : absolute;
+   z-index   : 10000;
+   width     : 40px;
+   height    : 40px;
+   background: transparent url(crystalball6.gif) 0 0 no-repeat;
+ }
+
+/* main page info */
+
+.main {
+    background-image: url("starsbg.gif");
+    cursor: url('cursur.png'), auto;
+}
+
+
+table {
+    text-align: center;
+    margin-left:15%; 
+    margin-right:15%;
+    margin-top: 10px;
+}
+
+
+tr {
+    text-align: center;
+    height: 150px;
+}
+
+th { font-size: 50px;
+    text-align: center;
+    font-family:serif;}
+
+.head {
+    color:lawngreen;
+    font-size: 50px;
+    font-family:cursive;
+    font-weight: bolder;
+}
+
+#deck { 
+    color:lawngreen;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+#shuffle {
+    font-size: 50px;
+}
+
+.read {
+    text-decoration: underline;
+    color: ghostwhite;
+}
+/* main pages info */
+
+
+/* about page */
+
+#about {
+    background-image: url(starsbg.gif);
+    color: lawngreen;
+}
+
+p {font-size:18px;}
+
+
+/* info for card pages */
+
+table.cardtable {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    margin-top: 10px;
+    border: 10px solid white;
+    }
+
+
+
+.cardhead {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    display:inline-block;
+    white-space: nowrap;
+}
+    
+
+    
+
